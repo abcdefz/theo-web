@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>查询首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <div>
+        姓名:
+        <input type="text" id="name" name="name" />
+        <br />
+        手机号码:
+        <input type="text" id="telephone" name="telephone" />
+        <br />
+        <button id="query">
+            <a href="./query">查询</a>
+        </button>
+    </div>
+
+    <script>
+        $('#query').click(function() {
+            console.log($('#name').val());
+            console.log($('#telephone').val());
+        })
+    </script>
+</body>
+</html>
