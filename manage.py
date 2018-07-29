@@ -1,6 +1,5 @@
 import os
 import sys
-import click
 from flask_script import Manager, Shell, Server
 from flask_migrate import Migrate, MigrateCommand
 from app import create_app, db
